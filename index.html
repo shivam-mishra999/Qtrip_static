@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QTrip</title>
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- TODO: MODULE_LAYOUT -->
+  <!-- 1. Create a <link> to the first stylesheet needed for Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- TODO: MODULE_LAYOUT -->
+  <!-- 1. Use appropriate css classes on nav element. -->
+  <!-- 2. Add child elements as required. -->
+
+   <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">QTrip</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      
+      <ul class = "navbar-nav">
+        <li class = "nav-item"><a href = "#" class = "nav-link">Home</a></li>
+        <li class = "nav-item"><a href = "pages/adventures/index.html" class = "nav-link">Explore</a></li>
+      </ul>
+     </nav>
+
+    </div>
+
+  <!-- TODO: MODULE_LAYOUT -->
+  <!-- 1. Use appropriate css classes on the hero image container element. -->
+  <!-- 2. Add child elements as required. -->
+
+   <div class="hero-image d-flex flex-column justify-content-center align-items-center text-white text-center">
+    <div class="text-on-image">
+      <h1>Welcome To QTrip</h1>
+      <p class="hero-subheading">Explore the world with fantastic places to venture around</p>
+      <input type="text" class="hero-input" placeholder = "Search a City">
+    </div>
+   </div>
+
+
+  <div class="container">
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Create the grid like layout as required. -->
+<!-- tile-1 -->
+      <div class="row">
+      <div class = "col-sm-6 col-lg-3 mb-4">
+        <a href = "/pages/adventures/">
+        <div class="tile">
+        <div class="tile-text text-center">
+          <h5>BENGALURU</h5>
+          <p>100+ PLACES</p>
+        </div>
+        <img src = "assets/bengaluru.jpg">
+      </div>
+    </a>
+    </div>
+      
+<!-- tile-2 -->
+   <div class = "col-sm-6 col-lg-3 mb-4">
+      <a href = "/pages/adventures/">
+          <div class="tile">
+          <div class="tile-text">
+            <h5>kolkata</h5>
+            <p>80+ PLACES</p>
+          </div>
+          <img src = "assets/kolkata.jpg">
+        </div>
+        </a>
+      </div>
+
+  <!-- tile-3 -->
+  
+    <div class = "col-sm-6 col-lg-3 mb-4">
+      <a href = "/pages/adventures/">
+      <div class="tile">
+      <div class="tile-text">
+        <h5>goa</h5>
+        <p>74+ PLACES</p>
+      </div>
+      <img src = "assets/goa.jpg">
+    </div>
+  </a>
+  </div>
+    
+<!-- tile-4 -->
+
+  <div class = "col-sm-6 col-lg-3 mb-4">
+    <a href = "/pages/adventures/">
+    <div class="tile">
+    <div class="tile-text">
+      <h5>mumbai</h5>
+      <p>95+ PLACES</p>
+    </div>
+    <img src = "assets/mumbai.jpg">
+  </div>
+</a>
+</div>
+  
+
+<!-- tile-5 -->
+
+  <div class = "col-sm-6 col-lg-3 mb-4">
+    <a href = "/pages/adventures/">
+    <div class="tile">
+    <div class="tile-text">
+      <h5>singapore</h5>
+      <p>150+ PLACES</p>
+    </div>
+    <img src = "assets/singapore.jpg">
+  </div>
+</a>
+</div>
+  
+<!-- tile-6 -->
+
+  <div class = "col-sm-6 col-lg-3 mb-4">
+    <a href = "/pages/adventures/"></a>
+    <div class="tile">
+    <div class="tile-text">
+      <h5>dubai</h5>
+      <p>30+ PLACES</p>
+    </div>
+    <img src = "assets/dubai.jpg">
+  </div>
+</a>
+</div>
+  
+<!-- tile-7 -->
+
+  <div class = "col-sm-6 col-lg-3 mb-4">
+    <a href = "/pages/adventures/">
+    <div class="tile">
+    <div class="tile-text">
+      <h5>malaysia</h5>
+      <p>65+ PLACES</p>
+    </div>
+    <img src = "assets/malaysia.jpg">
+  </div>
+</a>
+</div>
+  
+
+<!-- tile-8 -->
+
+  <div class = "col-sm-6 col-lg-3 mb-4">
+    <a href = "/pages/adventures/">
+    <div class="tile">
+    <div class="tile-text">
+      <h5>paris</h5>
+      <p>50+ PLACES</p>
+    </div>
+    <img src = "assets/paris.jpg">
+  </div>
+</a>
+</div>
+</div>
+  
+
+  </div>
+
+  <footer>
+    <div class="container">© QTrip 2020</div>
+  </footer>
+
+  <!-- TODO: MODULE_LAYOUT -->
+  <!-- Add scripts needed for bootstrap to work -->
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  
+</body>
+
+</html>
